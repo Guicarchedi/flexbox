@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    color: white;
+}
+
+.containe{
+    background-color: blue;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    /* tem tbm o "nowrap" e "wrap-reverse" */
+}
+
+.item{
+    background-color: darkblue;
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+    margin: 10px;
+}
