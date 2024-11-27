@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body > div{
+    padding: 20px;
+    margin: 10px;
+}
+
+body > div > div{
+    font-size: 2em;
+    padding: 10px;
+    margin: 10px;
+}
+
+#baseline{
+    background-color: blue;
+    display: flex;
+    justify-content: baseline;
+    & .item{
+        background-color: darkblue;
+    }
+}
+
+#center{
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    & .item{
+        background-color: darkred;
+    }
+}
+
+#end{
+    background-color: green;
+    display: flex;
+    justify-content: end;
+    & .item{
+        background-color: darkgreen;
+    }
+}
+
+#firstBaseline{
+    background-color: yellow;
+    display: flex;
+    justify-content: first baseline;
+    & .item{
+        background-color: darkgoldenrod;
+    }
+}
+
+#flex-end{
+    background-color: blueviolet;
+    display: flex;
+    justify-content: flex-end;
+    & .item{
+        background-color: purple;
+    }
+}
+
+#flex-start{
+    background-color: brown;
+    display: flex;
+    justify-content: flex-start;
+    & .item{
+        background-color: darkorange;
+    }
+}
+
+#lastBaseline{
+    background-color: cadetblue;
+    display: flex;
+    justify-content: last baseline;
+    & .item{
+        background-color: cornflowerblue;
+    }
+}
+
+#left{
+    background-color: aqua;
+    display: flex;
+    justify-content: left;
+    & .item{
+        background-color: cadetblue;
+    }
+}
+
+#right{
+    background-color: burlywood;
+    display: flex;
+    justify-content: right;
+    & .item{
+        background-color: coral;
+    }
+}
+
+#safe{
+    background-color: chartreuse;
+    display: flex;
+    justify-content: safe;
+    & .item{
+        background-color: darkolivegreen;
+    }
+}
+
+#space-around{
+    background-color: crimson;
+    display: flex;
+    justify-content: space-around;
+    & .item{
+        background-color: chocolate;
+    }
+}
+
+#space-between{
+    background-color: cyan;
+    display: flex;
+    justify-content: space-between;
+    & .item{
+        background-color: darkcyan;
+    }
+}
+
+#space-evenly{
+    background-color: firebrick;
+    display: flex;
+    justify-content: space-evenly;
+    & .item{
+        background-color: midnightblue;
+    }
+}
+
+#start{
+    background-color: darksalmon;
+    display: flex;
+    justify-content: start;
+    & .item{
+        background-color: forestgreen;
+    }
+}
+
+#stretch{
+    background-color: forestgreen;
+    display: flex;
+    justify-content: stretch;
+    & .item{
+        background-color: greenyellow;
+    }
+}
+
+#unsafe{
+    background-color: darkseagreen;
+    display: flex;
+    justify-content: unsafe;
+    & .item{
+        background-color: dimgray;
+    }
+}
+
