@@ -21,39 +21,12 @@ body > div > div{
     margin: 10px;
 }
 
-#baseline{
-    background-color: blue;
-    display: flex;
-    justify-content: baseline;
-    & .item{
-        background-color: darkblue;
-    }
-}
-
 #center{
     background-color: red;
     display: flex;
     justify-content: center;
     & .item{
         background-color: darkred;
-    }
-}
-
-#end{
-    background-color: green;
-    display: flex;
-    justify-content: end;
-    & .item{
-        background-color: darkgreen;
-    }
-}
-
-#firstBaseline{
-    background-color: yellow;
-    display: flex;
-    justify-content: first baseline;
-    & .item{
-        background-color: darkgoldenrod;
     }
 }
 
@@ -72,42 +45,6 @@ body > div > div{
     justify-content: flex-start;
     & .item{
         background-color: darkorange;
-    }
-}
-
-#lastBaseline{
-    background-color: cadetblue;
-    display: flex;
-    justify-content: last baseline;
-    & .item{
-        background-color: cornflowerblue;
-    }
-}
-
-#left{
-    background-color: aqua;
-    display: flex;
-    justify-content: left;
-    & .item{
-        background-color: cadetblue;
-    }
-}
-
-#right{
-    background-color: burlywood;
-    display: flex;
-    justify-content: right;
-    & .item{
-        background-color: coral;
-    }
-}
-
-#safe{
-    background-color: chartreuse;
-    display: flex;
-    justify-content: safe;
-    & .item{
-        background-color: darkolivegreen;
     }
 }
 
@@ -137,31 +74,3 @@ body > div > div{
         background-color: midnightblue;
     }
 }
-
-#start{
-    background-color: darksalmon;
-    display: flex;
-    justify-content: start;
-    & .item{
-        background-color: forestgreen;
-    }
-}
-
-#stretch{
-    background-color: forestgreen;
-    display: flex;
-    justify-content: stretch;
-    & .item{
-        background-color: greenyellow;
-    }
-}
-
-#unsafe{
-    background-color: darkseagreen;
-    display: flex;
-    justify-content: unsafe;
-    & .item{
-        background-color: dimgray;
-    }
-}
-
